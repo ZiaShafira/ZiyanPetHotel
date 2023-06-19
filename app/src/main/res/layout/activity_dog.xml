@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details"
+    android:background="@color/white">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:src="@drawable/img"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="40dp"
+                app:cardBackgroundColor="@color/teal"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="5dp"
+                    android:src="@drawable/dogstandar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:paddingLeft="150sp"
+                    android:text="Dog Standard Room 1"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55sp"
+                    android:paddingLeft="150sp"
+                    android:text="Cost: 50k/Day"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100sp"
+                    android:paddingLeft="150sp"
+                    android:text="Facility: Bed, Litter Box, and Food"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="120sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="125sp"
+                    android:backgroundTint="@color/bluee"
+                    android:text="Book"
+                    android:textSize="5pt"
+                    android:onClick="Book"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="40dp"
+                app:cardBackgroundColor="@color/teal"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="5dp"
+                    android:src="@drawable/dogstandar2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:paddingLeft="150sp"
+                    android:text="Dog Standard Room 2"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55sp"
+                    android:paddingLeft="150sp"
+                    android:text="Cost: 80k/Day"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100sp"
+                    android:paddingLeft="150sp"
+                    android:text="Facility: Bed, Litter Box, Toys, and Food"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:layout_width="120sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="125sp"
+                    android:backgroundTint="@color/bluee"
+                    android:text="Book"
+                    android:onClick="Book"
+                    android:textSize="5pt"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="40dp"
+                app:cardBackgroundColor="@color/teal"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="5dp"
+                    android:src="@drawable/dogvip" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:paddingLeft="150sp"
+                    android:text="Dog VIP Room 1"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55sp"
+                    android:paddingLeft="150sp"
+                    android:text="Cost: 120k/Day"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100sp"
+                    android:paddingLeft="150sp"
+                    android:text="Facility: Big Bed, Pads, Litter Box, Toys, and Food"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:layout_width="120sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="125sp"
+                    android:backgroundTint="@color/bluee"
+                    android:text="Book"
+                    android:textSize="5pt"
+                    android:onClick="Book"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="1in"
+                android:layout_margin="40dp"
+                app:cardBackgroundColor="@color/teal"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="140sp"
+                    android:layout_height="120sp"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:elevation="5dp"
+                    android:src="@drawable/dogvip2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:paddingLeft="150sp"
+                    android:text="Dog VIP Room 2"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55sp"
+                    android:paddingLeft="150sp"
+                    android:text="Cost: 150k/Day"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100sp"
+                    android:paddingLeft="150sp"
+                    android:text="Facility: Big Bed, Pads, Litter Box, Toys, Food, and Grooming"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:layout_width="120sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="125sp"
+                    android:backgroundTint="@color/bluee"
+                    android:text="Book"
+                    android:onClick="Book"
+                    android:textSize="5pt"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
